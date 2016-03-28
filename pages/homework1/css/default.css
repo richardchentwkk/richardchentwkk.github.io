@@ -1,0 +1,157 @@
+.background_header {
+    background-color: #3b5998;
+}
+
+.background_article {
+    background: linear-gradient(white, #D3D8E8);
+}
+
+.background_footer {
+    background-color: white;
+}
+
+.mainframe {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3b5998;
+}
+
+.middle_frame {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(white, #D3D8E8);
+}
+
+.footer_frame {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.header_style {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 5px;
+}
+
+.header_sub_style {
+    font-size: 35px;
+    color: #cccccc;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+#header_line_style {
+    color: white;
+    font-size: 10px;
+}
+
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.tabs {
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+}
+
+ul.tabs li.active {
+    background-color: white;
+    border-bottom: 1px solid white;
+}
+
+ul.tabs li {
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -1px;
+    /* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+    border: 1px solid #999;
+    border-left: none;
+    background: #e1e1e1;
+}
+
+ul.tabs li a {
+    display: block;
+    padding: 0 20px;
+    color: #000;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+ul.tabs li a:hover {
+    background: #ccc;
+}
+
+ul.tabs li.active {
+    background: #fff;
+    border-bottom: 1px solid#fff;
+}
+
+ul.tabs li.active a:hover {
+    background: #fff;
+}
+
+div.tabcontainer {
+    clear: left;
+    width: 100%;
+    border: 1px solid #999;
+    border-top: none;
+    background: #fff;
+}
+
+div.tabcontainer .tab_content {
+    padding: 20px;
+}
+
+div.text_title {
+    font-size: 36px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+li#text_content {
+    margin-left: 30px;
+    list-style: circle;
+    font-size: 18px;
+    padding: 5px;
+}
+
+div#text_content {
+    margin-left: 30px;
+    font-size: 18px;
+    padding: 8px;
+}
+
+div#text_install_steps {
+    margin-left: 30px;
+    font-size: 25px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+img.image_layout {
+    padding: 5px;
+    margin-left: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Environment Setup</title>
+    <link rel="stylesheet" href="css/default.css">
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/default.js"></script>
+</head>
+
+<body>
+    <!--Header part.-->
+    <div class="background_header">
+        <div class="mainframe">
+            <div class="header_style">Development Environment Setup</div>
+            <div class="header_sub_style">Sublime, Node.js, Package controll and extentions.</div>
+        </div>
+    </div>
+    <!--Tab and article part.-->
+    <div class="background_article">
+        <div class="middle_frame">
+            <ul class="tabs">
+                <li class="active">
+                    <a href="#tab1">Download Package</a>
+                </li>
+                <li>
+                    <a href="#tab2">Intall Sublime</a>
+                </li>
+                <li>
+                    <a href="#tab3">Install Node.js</a>
+                </li>
+                <li>
+                    <a href="#tab4">Package Control</a>
+                </li>
+                <li>
+                    <a href="#tab5">Install Extentions</a>
+                </li>
+                <li>
+                    <a href="#tab6">Preference</a>
+                </li>
+            </ul>
+            <div class="tabcontainer">
+                <!--Download Packages.-->
+                <div id="tab1">
+                    <!--Install list title.-->
+                    <div class="text_title">Download need packages</div>
+                    <!--Download list.-->
+                    <ul>
+                        <li id="text_content">
+                            <a href="#Sublime_download">Sublime text 3</a>
+                        </li>
+                        <li id="text_content">
+                            <a href="#Node_download">Node.js</a>
+                        </li>
+                    </ul>
+                    <!--Sublime-->
+                    <div class="text_title" id="Sublime_download">Sublime text 3</div>
+                    <div id="text_content">
+                        <a href="https://www.sublimetext.com/3" target="_blank">Download Sublime 3 now.</a>
+                    </div>
+                    <div id="text_content">Please choose suitable OS version to install.</div>
+                    <img class="image_layout" src="img/download_sublime.png" alt="downlaod_sublime" width="800" height="500">
+                    <!--Node.js-->
+                    <div class="text_title" id="Node_download">Node.js</div>
+                    <div id="text_content">
+                        <a href="https://nodejs.org/en/download/" target="_blank">Download Node.js now.</a>
+                    </div>
+                    <div id="text_content">Please choose suitable OS version to install.</div>
+                    <img class="image_layout" src="img/download_nodejs.png" alt="downlaod_sublime" width="800" height="500">
+                </div>
+                <!--Install sublime.-->
+                <div id="tab2">
+                    <div class="text_title">Install Sublime text 3</div>
+                    <div id="text_content">Take Windows as example, right clicked on executable file to install.</div>
+                    <!--Step 1-->
+                    <div id="text_install_steps">STEP1: Click next to start installation.</div>
+                    <img class="image_layout" src="img/sublime_step1.png" alt="install_sublime_step1" width="800" height="600">
+                    <!--Step 2-->
+                    <div id="text_install_steps">STEP2: Choose directory path to install.</div>
+                    <img class="image_layout" src="img/sublime_step2.png" alt="install_sublime_step2" width="800" height="600">
+                    <!--Step 3-->
+                    <div id="text_install_steps">STEP3: Confirm directory path to install.</div>
+                    <img class="image_layout" src="img/sublime_step3.png" alt="install_sublime_step3" width="800" height="600">
+                    <!--Step 4-->
+                    <div id="text_install_steps">STEP4: Installing...</div>
+                    <img class="image_layout" src="img/sublime_step4.png" alt="install_sublime_step4" width="800" height="600">
+                    <!--Check Step 1-->
+                    <div id="text_install_steps">STEP5: Check Sublime installed.</div>
+                    <img class="image_layout" src="img/sublime_check1.png" alt="check_sublime_step1" width="800" height="500">
+                    <!--Check Step 2-->
+                    <div id="text_install_steps">STEP6: Launch Sublime for test.</div>
+                    <img class="image_layout" src="img/sublime_check2.png" alt="check_sublime_step2" width="800" height="500">
+                </div>
+                <!--Install Node.js.-->
+                <div id="tab3">
+                    <div class="text_title">Install Node.js</div>
+                    <div id="text_content">Take Windows as example, right clicked on executable file to install.</div>
+                    <!--Step 1-->
+                    <div id="text_install_steps">STEP1: Click next to start installation.</div>
+                    <img class="image_layout" src="img/nodejs_step1.png" alt="nodejs_step1" width="800" height="600">
+                    <!--Step 2-->
+                    <div id="text_install_steps">STEP2: Accept license to install Node.js.</div>
+                    <img class="image_layout" src="img/nodejs_step2.png" alt="nodejs_step2" width="800" height="600">
+                    <!--Step 3-->
+                    <div id="text_install_steps">STEP3: Choose directory path to install.</div>
+                    <img class="image_layout" src="img/nodejs_step3.png" alt="nodejs_step3" width="800" height="600">
+                    <!--Step 4-->
+                    <div id="text_install_steps">STEP4: Confirm installation.</div>
+                    <img class="image_layout" src="img/nodejs_step4.png" alt="nodejs_step4" width="800" height="600">
+                    <!--Step 5-->
+                    <div id="text_install_steps">STEP5: Installing...</div>
+                    <img class="image_layout" src="img/nodejs_step5.png" alt="nodejs_step5" width="800" height="600">
+                    <!--Step 6-->
+                    <div id="text_install_steps">STEP6: Finished installation.</div>
+                    <img class="image_layout" src="img/nodejs_step6.png" alt="nodejs_step6" width="800" height="600">
+                    <!--Check Step 1-->
+                    <div id="text_install_steps">STEP7: Launch command line console.</div>
+                    <img class="image_layout" src="img/nodejs_check1.png" alt="nodejs_check_step1" width="300" height="500">
+                    <!--Check Step 2-->
+                    <div id="text_install_steps">STEP8: Input node -v to check.</div>
+                    <img class="image_layout" src="img/nodejs_check2.png" alt="nodejs_check_step2" width="500" height="200">
+                </div>
+                <!--Package control.-->
+                <div id="tab4">
+                    <div class="text_title">Install Package control</div>
+                    <div id="text_content">
+                        <a href="https://packagecontrol.io/installation" target="_blank">Go to install package control page.</a>
+                    </div>
+                    <!--Step 1-->
+                    <div id="text_install_steps">STEP1: Open console page in Sublime text 3.</div>
+                    <img class="image_layout" src="img/install_pic_step1.png" alt="install_pic_step1" width="800" height="600">
+                    <!--Step 2-->
+                    <div id="text_install_steps">STEP2: Copy Package control command in Official page.</div>
+                    <img class="image_layout" src="img/install_pic_step2.png" alt="install_pic_step1" width="800" height="600">
+                    <!--Step 3-->
+                    <div id="text_install_steps">STEP3: Enter commmand then start to install.</div>
+                    <img class="image_layout" src="img/install_pic_step3.png" alt="install_pic_step3" width="800" height="600">
+                    <!--Step 4-->
+                    <div id="text_install_steps">STEP4: Ignore known bug then finished installation.</div>
+                    <img class="image_layout" src="img/install_pic_step4.png" alt="install_pic_step4" width="800" height="600">
+                </div>
+                <!--Install extention.-->
+                <div id="tab5">
+                    <div class="text_title">Using Package Control to install extentions.</div>
+                    <!--Step 1-->
+                    <div id="text_install_steps">STEP1: Enter hot key to enable Package Control.</div>
+                    <img class="image_layout" src="img/extention_step1.png" alt="extention_step1" width="800" height="600">
+                    <!--Step 2-->
+                    <div id="text_install_steps">STEP2: Open Package control.</div>
+                    <img class="image_layout" src="img/extention_step2.png" alt="extention_step2" width="800" height="600">
+                    <!--Step 3-->
+                    <div id="text_install_steps">STEP3: Install Html Css and JS Prettify.</div>
+                    <img class="image_layout" src="img/extention_step3.png" alt="extention_step3" width="800" height="600">
+                    <!--Step 4-->
+                    <div id="text_install_steps">STEP4: Install emmet(ex-Zen).</div>
+                    <img class="image_layout" src="img/extention_step4.png" alt="extention_step4" width="800" height="600">
+                </div>
+                <!--Set preference and test.-->
+                <div id="tab6">
+                    <div class="text_title">Set Preference and test result.</div>
+                    <!--Step 1-->
+                    <div id="text_install_steps">STEP1: Open Node js preference setting.</div>
+                    <img class="image_layout" src="img/Setpreference_step1.png" alt="Setpreference_step1" width="800" height="600">
+                    <!--Step 2-->
+                    <div id="text_install_steps">STEP2: Change node_path and format_on_save.</div>
+                    <img class="image_layout" src="img/Setpreference_step2.png" alt="Setpreference_step2" width="800" height="600">
+                    <!--Step 3-->
+                    <div id="text_install_steps">STEP3: Input test text.</div>
+                    <img class="image_layout" src="img/Setpreference_step3.png" alt="Setpreference_step3" width="800" height="600">
+                    <!--Step 4-->
+                    <div id="text_install_steps">STEP4: Click hot key "TAB".</div>
+                    <img class="image_layout" src="img/Setpreference_step4.png" alt="Setpreference_step4" width="800" height="600">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer.-->
+    <div class="background_footer">
+        <div class="footer_frame">
+            <hr size="1">
+            <div>Author:
+                <a href="https://github.com/richardchentwkk" target="_blank">Richard Chen</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
