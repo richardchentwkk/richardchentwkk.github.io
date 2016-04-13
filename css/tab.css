@@ -62,6 +62,13 @@ table {
         padding: 6px 0px 6px 0px;
         background-color: #03D0E6;
     }
+    .menu_background {
+        background-color: black;
+    }
+    /*Reference gradient background*/
+    .content_background {
+        background-color: #393939;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -75,22 +82,20 @@ table {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding: 6px 0px 6px 6px;
         background-color: black;
     }
     .content_left {
         width: 100%;
-        margin: 0px auto;
+        margin: 0px;
         display: block;
         vertical-align: top;
         background-color: #393939;
-        padding: 10px;
+        padding: 6px 0px 6px 6px;
     }
     .content_right {
         width: 100%;
         background-color: #393939;
         display: block;
-        padding: 13px 0px 0px 10px;
     }
     .cell_line_right {
         display: none;
@@ -108,8 +113,16 @@ table {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding: 6px 0px 6px 0px;
         background-color: #03D0E6;
+    }
+    .menu_background {
+        background-color: black;
+        padding: 6px;
+    }
+    /*Reference gradient background*/
+    .content_background {
+        background-color: #393939;
+        padding: 10px;
     }
 }
 
@@ -121,18 +134,7 @@ table {
 }
 
 
-/*Reference gradient background*/
-
-.content_background {
-    background-color: #393939;
-}
-
-
 /* Frame */
-
-.menu_background {
-    background-color: black;
-}
 
 .content_left_contact {
     background-color: #393939;
@@ -354,7 +356,9 @@ div#content3 {
 
 .thumbs {
     list-style: none;
-    margin: 0px;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: center;
 }
 
 .li_project_font {
