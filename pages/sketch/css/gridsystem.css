@@ -46,6 +46,91 @@
         .col-md-12 {
             width: calc(100%*12/12);
         }
+        .float_right {
+            float: right;
+        }
+        .header_bar {
+            position: fixed;
+            background-color: white;
+            width: 100%;
+            top: 0px;
+            border-bottom: 1px solid gray;
+        }
+        .header_style {
+            vertical-align: middle;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        ul {
+            list-style: none;
+        }
+        .container_header {
+            width: 1000px;
+            height: 40px;
+            margin: 0px auto;
+            padding: 6px;
+        }
+        .margin_nav {
+            margin-left: 20px;
+            font-size: 16px;
+            color: #207CDF;
+            padding: 6px;
+        }
+        .sec_nav {
+            position: relative;
+            top: 55px;
+            z-index: -1;
+        }
+        .main_content_padding {
+            padding: 56px 0px;
+        }
+        .container {
+            width: 1000px;
+            margin: 0px auto;
+        }
+        .second_bg {
+            background-color: #F9FAFB;
+            height: 226.375px;
+        }
+        .appicon {
+            width: 120px;
+            height: 114.375px;
+        }
+        .buy_padding {
+            padding: 65px 0px;
+        }
+        .buy_sec_padding {
+            padding: 0px 70px;
+        }
+        .buy_title_font {
+            font-size: 34px;
+            margin: 16px 0px;
+            text-align: left;
+        }
+        .buybutton {
+            width: 130px;
+            height: 44px;
+            line-height: 24px;
+            font-weight: normal;
+            border-radius: 3px;
+            background-color: #207CDF;
+            color: white;
+            font-size: 16px;
+            padding: 10px 25px;
+            margin: 30px 10px 30px 50px;
+            text-align: center;
+        }
+        .buy_promote {
+            text-align: left;
+            font-size: 16px;
+            color: #111418;
+            font-weight: 300;
+        }
+        .margin_footer {
+            margin: 10px 20px;
+            font-size: 16px;
+            color: #207CDF;
+        }
     }
     /*Mobile*/
     
@@ -72,10 +157,10 @@
             width: calc(100%*7/12);
         }
         .col-sm-8 {
-            width: calc(100%*8/12);
+            width: 100%;
         }
         .col-sm-9 {
-            width: calc(100%*9/12);
+            width: 100%;
         }
         .col-sm-10 {
             width: calc(100%*10/12);
@@ -85,6 +170,94 @@
         }
         .col-sm-12 {
             width: calc(100%*12/12);
+        }
+        .float_right {
+            float: left;
+            display: none;
+            width: 100%;
+        }
+        .header_bar {
+            position: fixed;
+            background-color: white;
+            width: 100%;
+            top: 0px;
+            border-bottom: 1px solid gray;
+        }
+        .header_style {
+            vertical-align: middle;
+            display: block;
+            margin-top: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0px;
+        }
+        .container_header {
+            width: 100%;
+            margin: 0px auto;
+            padding: 6px;
+        }
+        .margin_nav {
+            margin-left: 0px;
+            text-align: center;
+            font-size: 16px;
+            color: #207CDF;
+            padding: 6px;
+        }
+        .sec_nav {
+            position: relative;
+            top: 44px;
+            z-index: -1;
+        }
+        .main_content_padding {
+            padding: 56px 20px;
+        }
+        .container {
+            margin: 0px auto;
+        }
+        .second_bg {
+            background-color: #F9FAFB;
+        }
+        .appicon {
+            width: 120px;
+            height: 114.375px;
+            margin: 10px 110px;
+        }
+        .buy_padding {
+            padding: 20px 0px;
+        }
+        .buy_sec_padding {
+            padding: 0px;
+        }
+        .buy_title_font {
+            font-size: 34px;
+            margin: 16px 0px;
+            text-align: center;
+        }
+        .buybutton {
+            width: 130px;
+            height: 44px;
+            line-height: 24px;
+            font-weight: normal;
+            border-radius: 3px;
+            background-color: #207CDF;
+            color: white;
+            font-size: 16px;
+            padding: 10px 25px;
+            margin: 30px 10px 30px 110px;
+            text-align: center;
+        }
+        .buy_promote {
+            text-align: center;
+            font-size: 16px;
+            color: #111418;
+            font-weight: 300;
+        }
+        .margin_footer {
+            margin: 10px 20px;
+            font-size: 16px;
+            color: #207CDF;
+            width: 100%;
         }
     }
     
@@ -98,36 +271,13 @@
         font-family: "Aktiv-Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
     
-    .container_header {
-        width: 1000px;
-        height: 40px;
-        margin: 0px auto;
-        padding: 6px;
-    }
-    
-    .container {
-        width: 1000px;
-        margin: 0px auto;
-    }
-    
-    ul {
-        list-style: none;
-    }
-    
     body {
         margin: 0px;
         background-color: white;
     }
     
-    .float_right {
-        float: right;
-    }
-    
-    .margin_nav {
-        margin-left: 20px;
-        font-size: 16px;
-        color: #207CDF;
-        padding: 6px;
+    .float_left {
+        float: left;
     }
     
     .font_logo {
@@ -173,10 +323,6 @@
         margin: 10px 0px;
     }
     
-    .main_content_padding {
-        padding: 56px 0px;
-    }
-    
     .sketch_desc {
         margin: 40px 0px;
         word-spacing: 0px;
@@ -197,38 +343,8 @@
         width: 100%;
     }
     
-    .second_bg {
-        background-color: #F9FAFB;
-        height: 226.375px;
-    }
-    
-    .appicon {
-        width: 120px;
-        height: 114.375px;
-    }
-    
-    .buybutton {
-        width: 130px;
-        height: 44px;
-        line-height: 24px;
-        font-weight: normal;
-        border-radius: 3px;
-        background-color: #207CDF;
-        color: white;
-        font-size: 16px;
-        padding: 10px 25px;
-        margin: 30px 10px 30px 50px;
-        text-align: center;
-    }
-    
     .buybtnpadding {
         text-align: center;
         margin: 0px auto;
         width: 100%;
-    }
-    
-    .buy_title_font {
-        font-size: 34px;
-        margin: 16px 0px;
-        text-align: left;
     }
