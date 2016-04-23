@@ -69,6 +69,12 @@ table {
     .content_background {
         background-color: #393939;
     }
+    .thumbs {
+        list-style: none;
+        margin: 0px auto;
+        padding: 10px;
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -123,6 +129,12 @@ table {
     .content_background {
         background-color: #393939;
         padding: 10px;
+    }
+    .thumbs {
+        list-style: none;
+        margin: 0px auto;
+        padding: 10px;
+        text-align: center;
     }
 }
 
@@ -358,7 +370,7 @@ div#content3 {
     list-style: none;
     margin: 0px auto;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .li_project_font {
