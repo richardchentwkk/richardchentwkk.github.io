@@ -81,7 +81,98 @@ table {
         font-weight: bold;
         margin: 10px 0px 10px 20px;
     }
+    .profileandpic {
+        vertical-align: top;
+        display: inline-block;
+    }
+    .category_skills {
+        vertical-align: top;
+        display: inline-block;
+    }
 }
+
+
+/*Pad*/
+
+@media screen and (min-width: 501px) and (max-width: 999px) {
+    .content_frame {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #393939;
+    }
+    .menu_frame {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+    }
+    .content_left {
+        width: 100%;
+        margin: 0px;
+        display: block;
+        vertical-align: top;
+        background-color: #393939;
+        padding: 6px 0px 6px 6px;
+    }
+    .content_right {
+        margin: 0px 24px;
+        background-color: #393939;
+        display: block;
+    }
+    .cell_line_right {
+        display: none;
+    }
+    .li_projects {
+        display: inline-block;
+        width: 270px;
+        height: 240px;
+        border-radius: 5px;
+        margin: 20px 10px;
+        background-color: white;
+        opacity: 1;
+    }
+    .header_frame {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #03D0E6;
+    }
+    .menu_background {
+        background-color: black;
+        padding: 6px;
+    }
+    /*Reference gradient background*/
+    .content_background {
+        background-color: #393939;
+        padding: 10px;
+    }
+    .thumbs {
+        list-style: none;
+        margin: 0px auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .font_project_category {
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .profileandpic {
+        margin: 0px 20px;
+        vertical-align: top;
+        display: inline-block;
+    }
+    .category_skills {
+        margin: 0px 20px;
+        vertical-align: top;
+        display: inline-block;
+    }
+}
+
+
+/*Mobile*/
 
 @media screen and (max-width: 500px) {
     .content_frame {
@@ -147,6 +238,14 @@ table {
         font-size: 26px;
         font-weight: bold;
         text-align: left;
+    }
+    .profileandpic {
+        vertical-align: top;
+        display: inline-block;
+    }
+    .category_skills {
+        vertical-align: top;
+        display: inline-block;
     }
 }
 
