@@ -1,0 +1,279 @@
+@import "rwd";
+$font_family: "Helvetica",
+Arial,
+sans-serif;
+
+/* Delete white space */
+
+body {
+    margin: 0px;
+}
+
+tr {
+    vertical-align: top;
+    margin-bottom: 200px;
+}
+
+table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header_background {
+    background-color: $color_light_blue;
+}
+
+
+/* Frame */
+
+.content_left_contact {
+    background-color: $background_color_main_content;
+    display: inline-block;
+}
+
+.right_content_text {
+    font-size: $font_size_middle;
+    color: #B9B9B9;
+    letter-spacing: 1.1px;
+    line-height: 25px;
+}
+
+.contact_pic {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+.cell_row {
+    margin: 10px 0px 10px 0px;
+}
+
+.contact_text {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+    font-size: $font_size_middle;
+    color: #B9B9B9;
+    margin-left: 5px;
+}
+
+.contact_text_address {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    font-size: $font_size_middle;
+    color: #B9B9B9;
+    margin-left: 5px;
+}
+
+.contact_cell {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.block_content_right {
+    padding: 20px 0px 20px 0px;
+}
+
+.contact_cell_pic {
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.resume_cell_pic {
+    padding-left: 5px;
+}
+
+.skill_cell {
+    display: inline-block;
+}
+
+.cell_line {
+    display: inline-block;
+    vertical-align: middle;
+    width: 168px;
+}
+
+.cell_background {
+    width: 250px;
+}
+
+.content_title_background {
+    background-color: $color_light_orange;
+}
+
+.header_title {
+    text-align: left;
+    padding: 10px;
+    font-size: $font_size_max;
+    color: white;
+    font-family: $font_family;
+}
+
+.tab_style {
+    text-align: center;
+    background-color: black;
+    border: 0px #3A5795 solid;
+    margin: 8px 12px 8px 8px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    //font-size: $font_size_max;
+}
+
+div.tab_style:hover {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: #B9B9B9;
+    > .projects {
+        color: black;
+    }
+    &:hover {
+        color: gray;
+    }
+}
+
+.inactive_tab {
+    color: white;
+}
+
+.active_tab {
+    color: gray;
+}
+
+div {
+    #content2 {
+        display: none;
+    }
+}
+
+.content_title {
+    font-size: $font_size_max;
+    font-family: $font_family;
+    text-align: center;
+    color: white;
+}
+
+.content_article {
+    font-size: $font_size_max;
+    padding: 10px;
+}
+
+.profile_frame {
+    width: 100%;
+}
+
+.profile {
+    border: 2px solid #B9B9B9;
+    margin: 8px 0px 0px 0px;
+}
+
+.font_family {
+    font-family: $font_family;
+}
+
+.font_skill_title {
+    margin: 5px 0px 5px 0px;
+    font-size: $font_size_max;
+    color: $color_light_orange;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+
+.font_profess_skill {
+    font-size: $font_size_middle;
+    letter-spacing: 1px;
+    margin: 15px 0px 5px 0px;
+    color: white;
+    text-align: left;
+}
+
+.font_school_experience {
+    font-size: $font_size_middle;
+    letter-spacing: 1px;
+    color: $color_light_blue;
+    text-align: left;
+    display: inline-block;
+}
+
+.font_year {
+    display: inline-block;
+}
+
+.skill_margin {
+    margin: 0px 0px 8px 0px;
+}
+
+.font_skills {
+    font-size: $font_size_middle;
+    margin: 5px 0px 5px 0px;
+    color: #B9B9B9;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.font_right_title {
+    font-family: $font_family;
+    font-size: $font_size_max;
+    letter-spacing: 1.5px;
+    padding: 0px 0px 0px 0px;
+    margin-left: 2px;
+    color: $color_light_orange;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.meter {
+    /* Status bar height */
+    height: 10px;
+    width: 250px;
+    position: relative;
+    background: #B9B9B9;
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+    >span {
+        display: block;
+        height: 100%;
+        background-image: linear-gradient( center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+        position: relative;
+        overflow: hidden;
+        background-color: $color_light_orange;
+    }
+}
+
+
+/*Content2*/
+
+.thumbs {
+    list-style: none;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: left;
+}
+
+.li_project_font {
+    font-size: $font_size_max;
+    text-align: center;
+}
+
+.li_project_pic {
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 10px 0px 10px;
+}
+
+.class_svg_project_pic {
+    width: 250px;
+    height: 200px;
+    margin: 10px 10px 0px 10px;
+}
+
+.svg_text_font {
+    font-size: $font_size_max;
+    letter-spacing: 1.5px;
+}

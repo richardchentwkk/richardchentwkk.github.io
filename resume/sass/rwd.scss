@@ -1,0 +1,235 @@
+$left_browser_percent:26.5%;
+$right_browser_percent:68%;
+$browser_width:1000px;
+$background_color_main_content: #393939;
+$color_light_orange:#FF931E;
+$color_light_blue:#03D0E6;
+$font_size_max:20px;
+$font_size_middle:18px;
+$font_size_normal:16px;
+$font_size_small:14px;
+$font_size_extra_small:12px;
+@media screen and (min-width: 1000px) {
+    .content_frame {
+        width: $browser_width;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $background_color_main_content;
+    }
+    .content_left {
+        width: $left_browser_percent;
+        background-color: $background_color_main_content;
+        padding: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .content_right {
+        width: $right_browser_percent;
+        background-color: $background_color_main_content;
+        display: inline-block;
+        padding: 13px 0px 0px 10px;
+    }
+    .cell_line_right {
+        display: inline-block;
+        width: 200px;
+        text-align: middle;
+    }
+    .li_projects {
+        display: inline-block;
+        width: 270px;
+        height: 240px;
+        border-radius: 5px;
+        margin: 20px;
+        background-color: white;
+        opacity: 1;
+    }
+    .menu_frame {
+        width: $browser_width;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 6px 0px 6px 6px;
+        background-color: black;
+    }
+    .header_frame {
+        width: $browser_width;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 6px 0px 6px 0px;
+        background-color: $color_light_blue;
+    }
+    .menu_background {
+        background-color: black;
+    }
+    /*Reference gradient background*/
+    .content_background {
+        background-color: $background_color_main_content;
+    }
+    .thumbs {
+        list-style: none;
+        margin: 0px auto;
+        padding: 10px;
+        text-align: left;
+    }
+    .font_project_category {
+        color: white;
+        font-size: $font_size_max;
+        font-weight: bold;
+        margin: 10px 0px 10px 20px;
+    }
+    .profileandpic,
+    .category_skills {
+        vertical-align: top;
+        display: inline-block;
+    }
+}
+
+
+/*Pad*/
+
+@media screen and (min-width: 501px) and (max-width: 999px) {
+    .content_frame {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $background_color_main_content;
+    }
+    .menu_frame {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+    }
+    .content_left {
+        width: 100%;
+        margin: 0px;
+        display: block;
+        vertical-align: top;
+        background-color: $background_color_main_content;
+        padding: 6px 0px 6px 6px;
+    }
+    .content_right {
+        margin: 0px 24px;
+        background-color: $background_color_main_content;
+        display: block;
+    }
+    .cell_line_right {
+        display: none;
+    }
+    .li_projects {
+        display: inline-block;
+        width: 270px;
+        height: 240px;
+        border-radius: 5px;
+        margin: 20px 10px;
+        background-color: white;
+        opacity: 1;
+    }
+    .header_frame {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $color_light_blue;
+    }
+    .menu_background {
+        background-color: black;
+        padding: 6px;
+    }
+    /*Reference gradient background*/
+    .content_background {
+        background-color: $background_color_main_content;
+        padding: 10px;
+    }
+    .thumbs {
+        list-style: none;
+        margin: 0px auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .font_project_category {
+        color: white;
+        font-size: $font_size_max;
+        font-weight: bold;
+        text-align: left;
+    }
+    .profileandpic,
+    .category_skills {
+        margin: 0px 20px;
+        vertical-align: top;
+        display: inline-block;
+    }
+}
+
+
+/*Mobile*/
+
+@media screen and (max-width: 500px) {
+    .content_frame {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $background_color_main_content;
+    }
+    .menu_frame {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+    }
+    .content_left {
+        width: 100%;
+        margin: 0px;
+        display: block;
+        vertical-align: top;
+        background-color: $background_color_main_content;
+        padding: 6px 0px 6px 6px;
+    }
+    .content_right {
+        width: 100%;
+        background-color: $background_color_main_content;
+        display: block;
+    }
+    .cell_line_right {
+        display: none;
+    }
+    .li_projects {
+        display: inline-block;
+        width: 270px;
+        height: 240px;
+        border-radius: 5px;
+        margin: 20px auto;
+        background-color: white;
+        opacity: 1;
+    }
+    .header_frame {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $color_light_blue;
+    }
+    .menu_background {
+        background-color: black;
+        padding: 6px;
+    }
+    /*Reference gradient background*/
+    .content_background {
+        background-color: $background_color_main_content;
+        padding: 10px;
+    }
+    .thumbs {
+        list-style: none;
+        margin: 0px auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .font_project_category {
+        color: white;
+        font-size: $font_size_max;
+        font-weight: bold;
+        text-align: left;
+    }
+    .profileandpic,
+    .category_skills {
+        vertical-align: top;
+        display: inline-block;
+    }
+}
