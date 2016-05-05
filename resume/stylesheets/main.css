@@ -597,3 +597,20 @@ div #content2 {
   font-size: 20px;
   letter-spacing: 1.5px;
 }
+
+/* line 281, ../sass/main.scss */
+.text_color_sub {
+  color: white;
+  margin-top: 10px;
+}
+
+/* line 286, ../sass/main.scss */
+.edu_and_job_title {
+  color: #03D0E6;
+  margin-top: 10px;
+}
+
+/* line 291, ../sass/main.scss */
+.edu_and_job_bar {
+  margin-top: 10px;
+}
