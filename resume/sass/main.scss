@@ -211,7 +211,7 @@ div {
 }
 
 .font_skills {
-    font-size: $font_size_middle;
+    font-size: $font_size_normal;
     margin: 5px 0px 5px 0px;
     color: #B9B9B9;
     letter-spacing: 1px;
@@ -243,7 +243,7 @@ div {
         background-image: linear-gradient( center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
         position: relative;
         overflow: hidden;
-        background-color: $color_light_orange;
+        background-color: $color_light_blue;
     }
 }
 

@@ -519,7 +519,7 @@ div #content2 {
 
 /* line 213, ../sass/main.scss */
 .font_skills {
-  font-size: 18px;
+  font-size: 16px;
   margin: 5px 0px 5px 0px;
   color: #B9B9B9;
   letter-spacing: 1px;
@@ -555,7 +555,7 @@ div #content2 {
   background-image: linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
   position: relative;
   overflow: hidden;
-  background-color: #FF931E;
+  background-color: #03D0E6;
 }
 
 /*Content2*/
