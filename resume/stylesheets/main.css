@@ -319,7 +319,6 @@ table {
 .right_content_text {
   font-size: 18px;
   color: #B9B9B9;
-  letter-spacing: 1.1px;
   line-height: 25px;
 }
 
@@ -362,11 +361,6 @@ table {
   width: 100%;
   padding-bottom: 10px;
   padding-top: 10px;
-}
-
-/* line 77, ../sass/main.scss */
-.block_content_right {
-  padding: 20px 0px 20px 0px;
 }
 
 /* line 81, ../sass/main.scss */
@@ -496,16 +490,16 @@ div #content2 {
 
 /* line 188, ../sass/main.scss */
 .font_profess_skill {
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
-  margin: 15px 0px 5px 0px;
+  margin: 20px 0px 10px 0px;
   color: white;
   text-align: left;
 }
 
 /* line 196, ../sass/main.scss */
 .font_school_experience {
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   color: #03D0E6;
   text-align: left;
@@ -515,14 +509,15 @@ div #content2 {
 /* line 204, ../sass/main.scss */
 .font_year {
   display: inline-block;
+  font-size: 16px;
 }
 
-/* line 208, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 .skill_margin {
   margin: 0px 0px 8px 0px;
 }
 
-/* line 212, ../sass/main.scss */
+/* line 213, ../sass/main.scss */
 .font_skills {
   font-size: 18px;
   margin: 5px 0px 5px 0px;
@@ -531,7 +526,7 @@ div #content2 {
   text-align: left;
 }
 
-/* line 220, ../sass/main.scss */
+/* line 221, ../sass/main.scss */
 .font_right_title {
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 20px;
@@ -543,7 +538,7 @@ div #content2 {
   display: inline-block;
 }
 
-/* line 231, ../sass/main.scss */
+/* line 232, ../sass/main.scss */
 .meter {
   /* Status bar height */
   height: 10px;
@@ -553,7 +548,7 @@ div #content2 {
   padding: 2px 0px 2px 0px;
   text-align: center;
 }
-/* line 239, ../sass/main.scss */
+/* line 240, ../sass/main.scss */
 .meter > span {
   display: block;
   height: 100%;
@@ -564,7 +559,7 @@ div #content2 {
 }
 
 /*Content2*/
-/* line 252, ../sass/main.scss */
+/* line 253, ../sass/main.scss */
 .thumbs {
   list-style: none;
   margin: 0px auto;
@@ -572,45 +567,58 @@ div #content2 {
   text-align: left;
 }
 
-/* line 259, ../sass/main.scss */
+/* line 260, ../sass/main.scss */
 .li_project_font {
   font-size: 20px;
   text-align: center;
 }
 
-/* line 264, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 .li_project_pic {
   text-align: center;
   border-radius: 5px;
   margin: 10px 10px 0px 10px;
 }
 
-/* line 270, ../sass/main.scss */
+/* line 271, ../sass/main.scss */
 .class_svg_project_pic {
   width: 250px;
   height: 200px;
   margin: 10px 10px 0px 10px;
 }
 
-/* line 276, ../sass/main.scss */
+/* line 277, ../sass/main.scss */
 .svg_text_font {
   font-size: 20px;
   letter-spacing: 1.5px;
 }
 
-/* line 281, ../sass/main.scss */
+/* line 282, ../sass/main.scss */
 .text_color_sub {
   color: white;
+  font-size: 16px;
   margin-top: 10px;
 }
 
-/* line 286, ../sass/main.scss */
+/* line 288, ../sass/main.scss */
 .edu_and_job_title {
   color: #03D0E6;
+  margin-top: 20px;
+}
+
+/* line 293, ../sass/main.scss */
+.edu_and_job_bar {
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+/* line 298, ../sass/main.scss */
+.introduction {
   margin-top: 10px;
 }
 
-/* line 291, ../sass/main.scss */
-.edu_and_job_bar {
-  margin-top: 10px;
+/* line 302, ../sass/main.scss */
+.skills_title_bar {
+  margin-top: 20px;
+  margin-bottom: -10px;
 }

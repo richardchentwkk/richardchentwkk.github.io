@@ -34,7 +34,7 @@ table {
 .right_content_text {
     font-size: $font_size_middle;
     color: #B9B9B9;
-    letter-spacing: 1.1px;
+    //letter-spacing: 1.1px;
     line-height: 25px;
 }
 
@@ -75,7 +75,7 @@ table {
 }
 
 .block_content_right {
-    padding: 20px 0px 20px 0px;
+    //padding: 20px 0px 20px 0px;
 }
 
 .contact_cell_pic {
@@ -186,15 +186,15 @@ div {
 }
 
 .font_profess_skill {
-    font-size: $font_size_middle;
+    font-size: $font_size_normal;
     letter-spacing: 1px;
-    margin: 15px 0px 5px 0px;
+    margin: 20px 0px 10px 0px;
     color: white;
     text-align: left;
 }
 
 .font_school_experience {
-    font-size: $font_size_middle;
+    font-size: $font_size_normal;
     letter-spacing: 1px;
     color: $color_light_blue;
     text-align: left;
@@ -203,6 +203,7 @@ div {
 
 .font_year {
     display: inline-block;
+    font-size: $font_size_normal;
 }
 
 .skill_margin {
@@ -280,14 +281,25 @@ div {
 
 .text_color_sub {
     color: white;
+    font-size: $font_size_normal;
     margin-top: 10px;
 }
 
 .edu_and_job_title {
     color: #03D0E6;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .edu_and_job_bar {
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+.introduction {
     margin-top: 10px;
+}
+
+.skills_title_bar {
+    margin-top: 20px;
+    margin-bottom: -10px;
 }
