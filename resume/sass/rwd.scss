@@ -9,6 +9,9 @@ $font_size_middle:18px;
 $font_size_normal:16px;
 $font_size_small:14px;
 $font_size_extra_small:12px;
+$font_family: "Helvetica",
+Arial,
+sans-serif;
 @media screen and (min-width: 1000px) {
     .content_frame {
         width: $browser_width;
@@ -81,6 +84,13 @@ $font_size_extra_small:12px;
         vertical-align: top;
         display: inline-block;
     }
+    .header_title {
+        text-align: left;
+        padding: 10px;
+        font-size: $font_size_max;
+        color: white;
+        font-family: $font_family;
+    }
 }
 
 
@@ -94,9 +104,7 @@ $font_size_extra_small:12px;
         background-color: $background_color_main_content;
     }
     .menu_frame {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 20px;
         background-color: black;
     }
     .content_left {
@@ -156,6 +164,14 @@ $font_size_extra_small:12px;
         margin: 0px 20px;
         vertical-align: top;
         display: inline-block;
+    }
+    .header_title {
+        text-align: left;
+        padding: 10px;
+        margin-left: 22px;
+        font-size: $font_size_max;
+        color: white;
+        font-family: $font_family;
     }
 }
 
@@ -231,5 +247,13 @@ $font_size_extra_small:12px;
     .category_skills {
         vertical-align: top;
         display: inline-block;
+    }
+    .header_title {
+        text-align: left;
+        padding: 10px;
+        margin-left: 2px;
+        font-size: $font_size_max;
+        color: white;
+        font-family: $font_family;
     }
 }

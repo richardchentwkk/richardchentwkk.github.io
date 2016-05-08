@@ -1,7 +1,4 @@
 @import "rwd";
-$font_family: "Helvetica",
-Arial,
-sans-serif;
 
 /* Delete white space */
 
@@ -103,14 +100,6 @@ table {
 
 .content_title_background {
     background-color: $color_light_orange;
-}
-
-.header_title {
-    text-align: left;
-    padding: 10px;
-    font-size: $font_size_max;
-    color: white;
-    font-family: $font_family;
 }
 
 .tab_style {
@@ -295,7 +284,8 @@ div {
     margin-bottom: -10px;
 }
 
-.introduction {
+.introduction,
+.intro_text {
     margin-top: 10px;
 }
 

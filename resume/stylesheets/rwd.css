@@ -1,5 +1,5 @@
 @media screen and (min-width: 1000px) {
-  /* line 13, ../sass/rwd.scss */
+  /* line 16, ../sass/rwd.scss */
   .content_frame {
     width: 1000px;
     margin-left: auto;
@@ -7,7 +7,7 @@
     background-color: #393939;
   }
 
-  /* line 19, ../sass/rwd.scss */
+  /* line 22, ../sass/rwd.scss */
   .content_left {
     width: 26.5%;
     background-color: #393939;
@@ -16,7 +16,7 @@
     vertical-align: top;
   }
 
-  /* line 26, ../sass/rwd.scss */
+  /* line 29, ../sass/rwd.scss */
   .content_right {
     width: 68%;
     background-color: #393939;
@@ -24,14 +24,14 @@
     padding: 13px 0px 0px 10px;
   }
 
-  /* line 32, ../sass/rwd.scss */
+  /* line 35, ../sass/rwd.scss */
   .cell_line_right {
     display: inline-block;
     width: 200px;
     text-align: middle;
   }
 
-  /* line 37, ../sass/rwd.scss */
+  /* line 40, ../sass/rwd.scss */
   .li_projects {
     display: inline-block;
     width: 270px;
@@ -42,7 +42,7 @@
     opacity: 1;
   }
 
-  /* line 46, ../sass/rwd.scss */
+  /* line 49, ../sass/rwd.scss */
   .menu_frame {
     width: 1000px;
     margin-left: auto;
@@ -51,7 +51,7 @@
     background-color: black;
   }
 
-  /* line 53, ../sass/rwd.scss */
+  /* line 56, ../sass/rwd.scss */
   .header_frame {
     width: 1000px;
     margin-left: auto;
@@ -60,18 +60,18 @@
     background-color: #03D0E6;
   }
 
-  /* line 60, ../sass/rwd.scss */
+  /* line 63, ../sass/rwd.scss */
   .menu_background {
     background-color: black;
   }
 
   /*Reference gradient background*/
-  /* line 64, ../sass/rwd.scss */
+  /* line 67, ../sass/rwd.scss */
   .content_background {
     background-color: #393939;
   }
 
-  /* line 67, ../sass/rwd.scss */
+  /* line 70, ../sass/rwd.scss */
   .thumbs {
     list-style: none;
     margin: 0px auto;
@@ -79,7 +79,7 @@
     text-align: left;
   }
 
-  /* line 73, ../sass/rwd.scss */
+  /* line 76, ../sass/rwd.scss */
   .font_project_category {
     color: white;
     font-size: 20px;
@@ -87,16 +87,25 @@
     margin: 10px 0px 10px 20px;
   }
 
-  /* line 79, ../sass/rwd.scss */
+  /* line 82, ../sass/rwd.scss */
   .profileandpic,
   .category_skills {
     vertical-align: top;
     display: inline-block;
   }
+
+  /* line 87, ../sass/rwd.scss */
+  .header_title {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: "Helvetica", Arial, sans-serif;
+  }
 }
 /*Pad*/
 @media screen and (min-width: 501px) and (max-width: 999px) {
-  /* line 90, ../sass/rwd.scss */
+  /* line 100, ../sass/rwd.scss */
   .content_frame {
     width: 100%;
     margin-left: auto;
@@ -104,15 +113,13 @@
     background-color: #393939;
   }
 
-  /* line 96, ../sass/rwd.scss */
+  /* line 106, ../sass/rwd.scss */
   .menu_frame {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
     background-color: black;
   }
 
-  /* line 102, ../sass/rwd.scss */
+  /* line 110, ../sass/rwd.scss */
   .content_left {
     width: 100%;
     margin: 0px;
@@ -122,19 +129,19 @@
     padding: 6px 0px 6px 6px;
   }
 
-  /* line 110, ../sass/rwd.scss */
+  /* line 118, ../sass/rwd.scss */
   .content_right {
     margin: 0px 24px;
     background-color: #393939;
     display: block;
   }
 
-  /* line 115, ../sass/rwd.scss */
+  /* line 123, ../sass/rwd.scss */
   .cell_line_right {
     display: none;
   }
 
-  /* line 118, ../sass/rwd.scss */
+  /* line 126, ../sass/rwd.scss */
   .li_projects {
     display: inline-block;
     width: 270px;
@@ -145,7 +152,7 @@
     opacity: 1;
   }
 
-  /* line 127, ../sass/rwd.scss */
+  /* line 135, ../sass/rwd.scss */
   .header_frame {
     width: 100%;
     margin-left: auto;
@@ -153,20 +160,20 @@
     background-color: #03D0E6;
   }
 
-  /* line 133, ../sass/rwd.scss */
+  /* line 141, ../sass/rwd.scss */
   .menu_background {
     background-color: black;
     padding: 6px;
   }
 
   /*Reference gradient background*/
-  /* line 138, ../sass/rwd.scss */
+  /* line 146, ../sass/rwd.scss */
   .content_background {
     background-color: #393939;
     padding: 10px;
   }
 
-  /* line 142, ../sass/rwd.scss */
+  /* line 150, ../sass/rwd.scss */
   .thumbs {
     list-style: none;
     margin: 0px auto;
@@ -174,7 +181,7 @@
     text-align: center;
   }
 
-  /* line 148, ../sass/rwd.scss */
+  /* line 156, ../sass/rwd.scss */
   .font_project_category {
     color: white;
     font-size: 20px;
@@ -182,17 +189,27 @@
     text-align: left;
   }
 
-  /* line 154, ../sass/rwd.scss */
+  /* line 162, ../sass/rwd.scss */
   .profileandpic,
   .category_skills {
     margin: 0px 20px;
     vertical-align: top;
     display: inline-block;
   }
+
+  /* line 168, ../sass/rwd.scss */
+  .header_title {
+    text-align: left;
+    padding: 10px;
+    margin-left: 22px;
+    font-size: 20px;
+    color: white;
+    font-family: "Helvetica", Arial, sans-serif;
+  }
 }
 /*Mobile*/
 @media screen and (max-width: 500px) {
-  /* line 166, ../sass/rwd.scss */
+  /* line 182, ../sass/rwd.scss */
   .content_frame {
     width: 100%;
     margin-left: auto;
@@ -200,7 +217,7 @@
     background-color: #393939;
   }
 
-  /* line 172, ../sass/rwd.scss */
+  /* line 188, ../sass/rwd.scss */
   .menu_frame {
     width: 100%;
     margin-left: auto;
@@ -208,7 +225,7 @@
     background-color: black;
   }
 
-  /* line 178, ../sass/rwd.scss */
+  /* line 194, ../sass/rwd.scss */
   .content_left {
     width: 100%;
     margin: 0px;
@@ -218,19 +235,19 @@
     padding: 6px 0px 6px 6px;
   }
 
-  /* line 186, ../sass/rwd.scss */
+  /* line 202, ../sass/rwd.scss */
   .content_right {
     width: 100%;
     background-color: #393939;
     display: block;
   }
 
-  /* line 191, ../sass/rwd.scss */
+  /* line 207, ../sass/rwd.scss */
   .cell_line_right {
     display: none;
   }
 
-  /* line 194, ../sass/rwd.scss */
+  /* line 210, ../sass/rwd.scss */
   .li_projects {
     display: inline-block;
     width: 270px;
@@ -241,7 +258,7 @@
     opacity: 1;
   }
 
-  /* line 203, ../sass/rwd.scss */
+  /* line 219, ../sass/rwd.scss */
   .header_frame {
     width: 100%;
     margin-left: auto;
@@ -249,20 +266,20 @@
     background-color: #03D0E6;
   }
 
-  /* line 209, ../sass/rwd.scss */
+  /* line 225, ../sass/rwd.scss */
   .menu_background {
     background-color: black;
     padding: 6px;
   }
 
   /*Reference gradient background*/
-  /* line 214, ../sass/rwd.scss */
+  /* line 230, ../sass/rwd.scss */
   .content_background {
     background-color: #393939;
     padding: 10px;
   }
 
-  /* line 218, ../sass/rwd.scss */
+  /* line 234, ../sass/rwd.scss */
   .thumbs {
     list-style: none;
     margin: 0px auto;
@@ -270,7 +287,7 @@
     text-align: center;
   }
 
-  /* line 224, ../sass/rwd.scss */
+  /* line 240, ../sass/rwd.scss */
   .font_project_category {
     color: white;
     font-size: 20px;
@@ -278,10 +295,20 @@
     text-align: left;
   }
 
-  /* line 230, ../sass/rwd.scss */
+  /* line 246, ../sass/rwd.scss */
   .profileandpic,
   .category_skills {
     vertical-align: top;
     display: inline-block;
+  }
+
+  /* line 251, ../sass/rwd.scss */
+  .header_title {
+    text-align: left;
+    padding: 10px;
+    margin-left: 2px;
+    font-size: 20px;
+    color: white;
+    font-family: "Helvetica", Arial, sans-serif;
   }
 }
